@@ -56,7 +56,14 @@ namespace prjmagasin
                     txtBoxLocalite.Text = m.Localite;
                     txtBoxGerant.Text = m.Gerant;
                 }
+                txtBoxNom.Text = "";
+                txtBoxPrenom.Text = "";
+                txtBoxMail.Text = "";
+                richTBLigne.Text = "";
+                txtBoxNumCli.Text = "";
+
             }
+
         }
         //lister les magasins
         private void btnListeMagasin_Click(object sender, EventArgs e)
@@ -180,6 +187,10 @@ namespace prjmagasin
                     txtBoxPrenom.Text = cl.Prenom;
                     txtBoxMail.Text = cl.Mail;
                 }
+                txtBoxGerant.Text = "";
+                txtBoxLocalite.Text = "";
+                richTBLigne.Text = "";
+                txtboxNum.Text = "";
             }
         }
 
